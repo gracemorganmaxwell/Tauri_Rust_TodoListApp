@@ -1,0 +1,75 @@
+# iPad Checklist App Development Plan
+
+This project is focused on creating a simple, touch-interactive checklist app for iPads using Tauri, with emoji-based bullet points for tasks and drag-and-drop functionality. 
+
+## Stage 1: Setting Up and Shipping the Basics
+
+### Step 1: Project Setup
+- [ ] Install and set up the Tauri project.
+- [ ] Set up basic HTML/CSS/JavaScript structure for the checklist app.
+
+### Step 2: Basic Checklist Functionality
+- [ ] Create a simple form to add tasks to the checklist.
+- [ ] Implement "Add Task" and "Delete Task" functionality.
+- [ ] Use local storage to persist tasks across sessions.
+- [ ] Ship this feature: Basic task management functionality.
+
+---
+
+## Stage 2: Implementing Emoji-based Checklists
+
+### Step 3: Emoji Support for Checklists
+- [ ] Integrate an emoji picker to allow users to choose an emoji for each task.
+- [ ] Store the emoji along with the task in local storage.
+- [ ] Update the UI to display chosen emojis as bullet points for tasks.
+- [ ] Ship this feature: Users can now personalize tasks with emojis.
+
+---
+
+## Stage 3: Touch-based Interactions and Drag-and-Drop
+
+### Step 4: Add Drag-and-Drop Functionality
+- [ ] Install and configure `interact.js` to enable drag-and-drop.
+- [ ] Implement touch-based reordering of tasks using drag-and-drop.
+- [ ] Update local storage to save task order after dragging.
+- [ ] Ship this feature: Users can reorder tasks with touch interactions.
+
+---
+
+## Stage 4: Expanding with Gesture Features
+
+### Step 5: Add Gesture Features with `Hammer.js`
+- [ ] Install and configure `Hammer.js` for touch gestures.
+- [ ] Implement swipe left to mark tasks as completed.
+- [ ] Implement swipe right to delete tasks.
+- [ ] Update UI to reflect task completion or deletion with animations.
+- [ ] Ship this feature: Gesture-based task management (swipe to complete/delete).
+
+---
+
+## Stage 5: Advanced Features (Sync, Customization, etc.)
+
+### Step 6: Sync and Cloud Storage
+- [ ] (Optional) Integrate cloud storage (iCloud, Firebase, etc.) to sync tasks across devices.
+- [ ] Implement Rust-based backend syncing logic (if needed).
+- [ ] Ship this feature: Syncing of checklists across devices.
+
+---
+
+## Final Stage: Polish and Optimization
+
+### Step 7: Final Touches and Optimization
+- [ ] Add UI/UX polish (animations, responsive design for portrait/landscape mode).
+- [ ] Optimize for performance (minimize load times, ensure smooth interactions).
+- [ ] Ship the final version: Polished and fully functional checklist app.
+
+---
+
+## Feature Shipping Milestones:
+
+- [ ] **Basic Checklist Functionality (Static Tasks)**: Add and delete tasks.
+- [ ] **Custom Emoji Support**: Use emojis as bullet points for tasks.
+- [ ] **Touch Drag-and-Drop with `interact.js`**: Reorder tasks via touch interactions.
+- [ ] **Advanced Gestures with `Hammer.js`**: Swipe to complete or delete tasks.
+- [ ] **Cloud Syncing (Optional)**: Sync checklists across devices.
+- [ ] **Final Polishing and Optimization**: Final touches and improvements.
